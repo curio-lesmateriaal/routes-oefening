@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::view('/', 'home');
 
 // Zet hieronder de routes naar alle pagina's
 
@@ -24,4 +22,4 @@ Route::get('/', function () {
 
 
 // Contact Formulier opdracht:
-Route::get('/contact/submit', [ContactController::class, 'submit']);
+Route::view('/contact/submit', [ContactController::class, 'submit']);

@@ -37,6 +37,8 @@ Deze website is bijna af. Enkel de routes ontbreken nog. Zorg ervoor dat de volg
 - About us
 - Contact
 
+Tip: Kijk goed naar de home route die er al staat. Gebruik het als voorbeeld
+
 ## Opdracht 2
 
 In Contact staat ook een formulier. Je moet deze ook nog werkend maken. Er staat al een route klaar, maar deze werkt niet. Zoek uit waarom, en fix het probleem.
