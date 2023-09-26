@@ -41,7 +41,7 @@ Deze website is bijna af. Enkel de routes ontbreken nog. Zorg ervoor dat de volg
 
 In Contact staat ook een formulier. Je moet deze ook nog werkend maken. Er staat al een route klaar, maar deze werkt niet. Zoek uit waarom, en fix het probleem.
 
-# Opdracht 3
+## Opdracht 3
 
 - Maak een nieuwe view aan, en maak een route naar die view. 
 - Maak in de routes file een php variabele aan met daarin je naam. Stuur deze variable mee naar de view
