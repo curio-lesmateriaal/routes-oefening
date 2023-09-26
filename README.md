@@ -21,11 +21,11 @@
 - `npm run dev`
 - Open de site in de browser (je kunt ook `php artisan serve` gebruiken)
 
-## De opdracht
+## Opdracht 1
 
-Deze website is bijna af. Enkel de routes ontbreken nog. Zorg ervoor dat de volgende pagina's netjes geopend kunnen worden:
+Deze website is bijna af. Enkel de routes ontbreken nog. Zorg ervoor dat de volgende pagina's (Die je allemaal kunt vinden in de navbar) netjes geopend kunnen worden:
 
-- de Homepage (deze is al gedaan)
+- Home (deze is al gedaan)
 - Projects
   - ShopEase Pro
   - HealthTrack Plus
@@ -37,7 +37,15 @@ Deze website is bijna af. Enkel de routes ontbreken nog. Zorg ervoor dat de volg
 - About us
 - Contact
 
+## Opdracht 2
+
 In Contact staat ook een formulier. Je moet deze ook nog werkend maken. Er staat al een route klaar, maar deze werkt niet. Zoek uit waarom, en fix het probleem.
+
+# Opdracht 3
+
+- Maak een nieuwe view aan, en maak een route naar die view. 
+- Maak in de routes file een php variabele aan met daarin je naam. Stuur deze variable mee naar de view
+- Laat de variabele in de view zien. (De pagina hoeft verder geen opmaak te hebben)
 
 ## Verdieping
 
