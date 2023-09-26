@@ -23,7 +23,8 @@
                     <li>Communication tools for instructors and students</li>
                 </ul>
                 <p>
-                    EduPro LearnHub is your gateway to online education. Create and manage courses, enroll students, track progress with interactive quizzes and assignments, and foster collaboration with communication tools.                </p>
+                    EduPro LearnHub is your gateway to online education. Create and manage courses, enroll students, track progress with interactive quizzes and assignments, and foster collaboration with communication tools.
+                </p>
             </div>
 
         </section>
