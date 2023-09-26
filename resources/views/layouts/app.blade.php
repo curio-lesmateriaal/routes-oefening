@@ -36,12 +36,54 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                Projects
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/projects/shopease-pro">
+                                    ShopEase Pro
+                                </a>
+                                <a class="dropdown-item" href="/projects/healthtrack-plus">
+                                    HealthTrack Plus
+                                </a>
+                                <a class="dropdown-item" href="/projects/bizconnect-crm">
+                                    BizConnect CRM
+                                </a>
+                                <a class="dropdown-item" href="/projects/wealthguard-pro">
+                                    WealthGuard Pro
+                                </a>
+                                <a class="dropdown-item" href="/projects/edupro-learnhub">
+                                    EduPro LearnHub
+                                </a>
+                                <a class="dropdown-item" href="/projects/stockmasters">
+                                    StockMasters
+                                </a>
+                                <a class="dropdown-item" href="/projects/travelwise-express">
+                                    TravelWise Express
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/over-ons">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        @if(Session::has('message'))
+        <div class="container mt-5">
+            <div class="alert alert-success">
+                {{ Session::get('message') }}
+            </div>
+        </div>
+        @endisset
 
         <main class="py-4">
             @yield('content')

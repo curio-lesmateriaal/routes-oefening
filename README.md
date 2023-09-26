@@ -1,6 +1,17 @@
+## Benodigdheden
+
+- Laragon 6
+  - PHP 8.1.x
+  - MySQL 8.x
+  - Composer 2.4.x
+  - Node 18.8.x
+  - NPM 8.18.x
+- Git of Github Desktop
+
 ## Project installeren
 
-- Clone het project met git of git-desktop
+- Clone het project met git of git-desktop.
+  - Dit mag in de www folder, of een andere folder naar keuze.
 - Open het project met VSCode
 - kopieer de .env.example file en hernoem deze naar .env
 - Open de terminal en voer de volgende commando's uit:
@@ -15,7 +26,7 @@
 Deze website is bijna af. Enkel de routes ontbreken nog. Zorg ervoor dat de volgende pagina's netjes geopend kunnen worden:
 
 - de Homepage (deze is al gedaan)
-- Project
+- Projects
   - ShopEase Pro
   - HealthTrack Plus
   - BizConnect CRM
@@ -23,7 +34,7 @@ Deze website is bijna af. Enkel de routes ontbreken nog. Zorg ervoor dat de volg
   - EduPro LearnHub
   - StockMasters
   - TravelWise Express
-- Over-Ons
+- About us
 - Contact
 
 In Contact staat ook een formulier. Je moet deze ook nog werkend maken. Er staat al een route klaar, maar deze werkt niet. Zoek uit waarom, en fix het probleem.
