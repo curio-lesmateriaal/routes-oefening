@@ -10,7 +10,7 @@
         </header>
 
         <!-- Project Image -->
-        <img src="img/bizconnect_crm_image.jpg" alt="BizConnect CRM" class="img-fluid featured-img mt-4">
+        <img src="{{ url("img/bizconnect_crm_image.jpg") }}" alt="BizConnect CRM" class="img-fluid featured-img mt-4">
 
         <!-- Project Details -->
         <section class="card mt-4">

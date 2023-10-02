@@ -10,7 +10,7 @@
         </header>
 
         <!-- Project Image -->
-        <img src="img/shop_ease_pro_image.jpg" alt="ShopEase Pro" class="img-fluid featured-img mt-4">
+        <img src="{{ url("img/shop_ease_pro_image.jpg") }}" alt="ShopEase Pro" class="img-fluid featured-img mt-4">
 
         <!-- Project Details -->
         <section class="card mt-4">

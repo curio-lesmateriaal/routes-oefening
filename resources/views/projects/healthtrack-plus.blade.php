@@ -10,7 +10,7 @@
         </header>
 
         <!-- Project Image -->
-        <img src="img/healthtrack_plus_image.jpg" alt="HealthTrack Plus" class="img-fluid featured-img mt-4">
+        <img src="{{ url("img/healthtrack_plus_image.jpg") }}" alt="HealthTrack Plus" class="img-fluid featured-img mt-4">
 
         <!-- Project Details -->
         <section class="card mt-4">

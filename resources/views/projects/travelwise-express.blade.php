@@ -10,7 +10,7 @@
         </header>
 
         <!-- Project Image -->
-        <img src="img/travelwise_express_image.jpg" alt="TravelWise Express" class="img-fluid featured-img mt-4">
+        <img src="{{ url("img/travelwise_express_image.jpg") }}" alt="TravelWise Express" class="img-fluid featured-img mt-4">
 
         <!-- Project Details -->
         <section class="card mt-4">

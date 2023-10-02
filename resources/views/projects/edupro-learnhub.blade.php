@@ -10,7 +10,7 @@
         </header>
 
         <!-- Project Image -->
-        <img src="img/edupro_learnhub_image.jpg" alt="EduPro LearnHub" class="img-fluid featured-img mt-4">
+        <img src="{{ url('img/edupro_learnhub_image.jpg') }}" alt="EduPro LearnHub" class="img-fluid featured-img mt-4">
 
         <!-- Project Details -->
         <section class="card mt-4">
